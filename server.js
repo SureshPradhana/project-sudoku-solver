@@ -41,7 +41,7 @@ app.listen(PORT, function () {
   console.log("Listening on port " + PORT);
   // process.env.NODE_ENV='test'
   if (process.env.NODE_ENV==='test') {
-    console.log('Running Tests...');
+    console.log('Running Tests...')
     setTimeout(function () {
       try {
         runner.run();
